@@ -1,0 +1,60 @@
+%Warning-EOFNEWLINE: /openlane/designs/ravan_512/src/custom32.v:31:9: Missing newline at end of file (POSIX 3.206).
+                                                                    : ... Suggest add newline.
+   31 |         
+      |         ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-PINCONNECTEMPTY: /openlane/designs/ravan_512/src/ravan_top.v:73:10: Cell pin connected by name with empty reference: 'sha_error'
+   73 |         .sha_error(),
+      |          ^~~~~~~~~
+%Warning-WIDTHEXPAND: /openlane/designs/ravan_512/src/rptr_empty.v:14:36: Operator AND expects 6 bits on the LHS, but LHS's VARREF 'rinc' generates 1 bits.
+                                                                        : ... In instance ravan_soc_top.u_pipeline.cdc_bridge.rptr_handler
+   14 |     assign rbinnext = rbin + (rinc & ~rempty);  
+      |                                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/ravan_512/src/rptr_empty.v:14:38: Operator NOT expects 6 bits on the LHS, but LHS's VARREF 'rempty' generates 1 bits.
+                                                                        : ... In instance ravan_soc_top.u_pipeline.cdc_bridge.rptr_handler
+   14 |     assign rbinnext = rbin + (rinc & ~rempty);  
+      |                                      ^
+%Warning-WIDTHEXPAND: /openlane/designs/ravan_512/src/wptr_full.v:15:36: Operator AND expects 6 bits on the LHS, but LHS's VARREF 'winc' generates 1 bits.
+                                                                       : ... In instance ravan_soc_top.u_pipeline.cdc_bridge.wptr_handler
+   15 |     assign wbinnext = wbin + (winc & ~wfull);  
+      |                                    ^
+%Warning-WIDTHEXPAND: /openlane/designs/ravan_512/src/wptr_full.v:15:38: Operator NOT expects 6 bits on the LHS, but LHS's VARREF 'wfull' generates 1 bits.
+                                                                       : ... In instance ravan_soc_top.u_pipeline.cdc_bridge.wptr_handler
+   15 |     assign wbinnext = wbin + (winc & ~wfull);  
+      |                                      ^
+%Warning-UNUSEDSIGNAL: /openlane/designs/ravan_512/src/ravan_top.v:30:18: Bits of signal are not used: 'dynamic_sel_seed'[31:8]
+                                                                        : ... In instance ravan_soc_top
+   30 |     wire [31:0]  dynamic_sel_seed;
+      |                  ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/ravan_512/src/pipeline.v:7:24: Bits of signal are not used: 'key'[511:480]
+                                                                      : ... In instance ravan_soc_top.u_pipeline
+    7 |     input wire [511:0] key,
+      |                        ^~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/ravan_512/src/encryption.v:16:16: Signal is not used: 'fac_mem'
+                                                                         : ... In instance ravan_soc_top.u_core
+   16 |     reg [63:0] fac_mem [0:1]; 
+      |                ^~~~~~~
+%Warning-UNUSEDPARAM: /openlane/designs/ravan_512/src/sha.v:30:14: Parameter is not used: 'STATUS_READY_BIT'
+                                                                 : ... In instance ravan_soc_top.u_pipeline.hash_unit
+   30 |   localparam STATUS_READY_BIT = 0;
+      |              ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDPARAM: /openlane/designs/ravan_512/src/sha.v:31:14: Parameter is not used: 'STATUS_VALID_BIT'
+                                                                 : ... In instance ravan_soc_top.u_pipeline.hash_unit
+   31 |   localparam STATUS_VALID_BIT = 1;
+      |              ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDPARAM: /openlane/designs/ravan_512/src/sha.v:43:14: Parameter is not used: 'MODE_SHA_224'
+                                                                 : ... In instance ravan_soc_top.u_pipeline.hash_unit
+   43 |   localparam MODE_SHA_224   = 1'h0;
+      |              ^~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/ravan_512/src/custom32.v:2:9: Signal is not used: 'clk'
+                                                                     : ... In instance ravan_soc_top.u_pipeline.u5dut
+    2 |   input clk,
+      |         ^~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/ravan_512/src/sha_core.v:119:17: Signal is not driven, nor used: 'w_round'
+                                                                        : ... In instance ravan_soc_top.u_pipeline.hash_unit.core
+  119 |   reg [5 : 0]   w_round;
+      |                 ^~~~~~~
+%Warning-CASEINCOMPLETE: /openlane/designs/ravan_512/src/encryption.v:53:13: Case values incompletely covered (example pattern 0x3)
+   53 |             case (state)
+      |             ^~~~

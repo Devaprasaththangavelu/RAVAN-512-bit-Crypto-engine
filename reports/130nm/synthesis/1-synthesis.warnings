@@ -1,0 +1,40 @@
+Warning: Replacing memory \hk with list of registers. See /openlane/designs/ravan_512/src/pipeline.v:87
+Warning: Replacing memory \block_reg with list of registers. See /openlane/designs/ravan_512/src/sha.v:128
+Warning: Replacing memory \w_mem with list of registers. See /openlane/designs/ravan_512/src/sha_mem.v:63
+Warning: Replacing memory \fac_mem with list of registers. See /openlane/designs/ravan_512/src/encryption.v:51
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire ravan_soc_top.\system_ready is used but has no driver.
+Warning: Wire ravan_soc_top.\result_valid is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [31] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [30] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [29] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [28] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [27] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [26] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [25] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [24] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [23] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [22] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [21] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [20] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [19] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [18] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [17] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [16] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [15] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [14] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [13] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [12] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [11] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [10] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [9] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [8] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [7] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [6] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [5] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [4] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [3] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [2] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [1] is used but has no driver.
+Warning: Wire ravan_soc_top.\reg_rdata [0] is used but has no driver.
+Warnings: 38 unique messages, 38 total

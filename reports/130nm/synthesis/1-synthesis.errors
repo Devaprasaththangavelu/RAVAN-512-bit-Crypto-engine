@@ -1,0 +1,2 @@
+No latch inferred for signal `\sha256.\tmp_error' from process `\sha256.$proc$/openlane/designs/ravan_512/src/sha.v:162$135'.
+ABC: Error: The network is combinational.
